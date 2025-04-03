@@ -24,7 +24,7 @@ This repository contains a Python implementation of a Naïve Bayes Classifier fo
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/your-username/AI-Based-Email-Spam-Filter.git](https://www.google.com/search?q=https://github.com/your-username/AI-Based-Email-Spam-Filter.git)
+    git clone https://github.com/JamesVillarosa/AI-Based-Email-Spam-Filter
     cd AI-Based-Email-Spam-Filter
     ```
 
@@ -37,7 +37,7 @@ This repository contains a Python implementation of a Naïve Bayes Classifier fo
 2.  Run the Python script:
 
     ```bash
-    python your_script_name.py
+    python spam_filter_project.py
     ```
 
     * The script will open a file dialog, allowing you to select the parent folder containing your email datasets.
@@ -68,21 +68,6 @@ k = [smoothing_factor]
 * `[filename]` is the name of the file being classified.
 * `[classification]` is either "Spam" or "Ham".
 * `[probability]` is the calculated probability of the email being spam or ham.
-
-### Example Dataset Structure
-parent_folder/
-├── spam/
-│   ├── spam_email1.txt
-│   ├── spam_email2.txt
-│   └── ...
-├── ham/
-│   ├── ham_email1.txt
-│   ├── ham_email2.txt
-│   └── ...
-└── classify/
-├── classify_email1.txt
-├── classify_email2.txt
-└── ...
 
 ### Code Explanation
 
